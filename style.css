@@ -1,0 +1,15 @@
+:root {
+    --cor0:
+    --cor1:
+    --cor2:
+    --cor3:
+    --cor4:
+    --fonte1:
+    --fonte2:
+    --fonte3:
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}

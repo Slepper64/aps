@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     --cor0:
     --cor1:
@@ -14,8 +15,32 @@
     font-size: 16px;
     box-sizing: border-box;
 }
-#menu-h {
+.menu-h {
+    background-color: rgb(33, 33, 33);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu-h ul {
     list-style: none;
     padding: 0px;
+    max-width: 800px;
     background-color: rgb(33, 33, 33);
+}
+.menu-h ul li {
+    display: inline;
+}
+.menu-h ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: background .5s;
+    color: #fff;
+}
+.menu-h ul li a:hover {
+    background-color: rgb(64, 64, 177);
+}
+.menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(64, 64, 177);;
 }

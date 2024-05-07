@@ -1,27 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
     --color1: #6F9ABF;
     --color2: #BBBF45;
     --color3: #BCBF60;
     --color4: #F2C49B;
     --color5: #733924;
+    --font1: 'Exo 2', sans-serif;
+    --font2: 'Josefin sans', sans-serif;
 }
 * { 
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: var(--font2);
+}
+h1, h2, h3 {
+    font-family: var(--font1);
+    margin: 0 10px;
 }
 body {
-    background-color: var(--color5);
     max-height: 100vh;
+    background-image: url(../aps/imagens/2551087.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: var(--color1);
+}
+.welcome-h1 {
+    padding: 20px 0;
+    margin: 5px;
+    border: 1px solid #f5f4f449;
+}
+.welcome-h1 > .h1-introduction {
+    margin: 0 10px;
+}
+.objetivo-h2 {
+    margin-left: 20px;
+}
+.objetivo-box {
+    max-width: 500px;
+}
+.parent-wall-e {
+    display: flex;
+    justify-content: space-around;
+}
+.wall-e img {
+    height: 200px;
+    max-width: 200px;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+ul > a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--color3);
+}
+ul > a:hover {
+    text-decoration: underline;
+    transition: 0.6s all;
+    color: #fff;
+}
+p, li {
+    line-height: 20px;
+    padding: 10px;
+    margin: 0 20px;
+}
+.main-p {
+    margin: 10px 0;
 }
 main, article {
     background-color: #fff;
     margin: auto;
+    padding: 20px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     max-width: 1200px;
+}
+.curiosidades-primeiro-topico, .curiosidades-segundo-topico, .curiosidades-terceiro-topico, .curiosidades-quarto-topico {
+    margin: auto;
+    max-width: 1000px;
+}
+.h2-curiosidades-um, .h2-curiosidades-dois, .h2-curiosidades-tres, .h2-curiosidades-quatro {
+    margin: 10px;
+}
+.curiosidades-primeiro-topico{
+    background-color: var(--color3);
+}
+.curiosidades-segundo-topico {
+    background-color: var(--color3);
+}
+.curiosidades-terceiro-topico {
+    background-color: var(--color3);
+}
+.h2-curiosidades-um {
+    background-color: var(--color2);
+}
+.h2-curiosidades-dois {
+    background-color: var(--color2);
+}
+.h2-curiosidades-tres {
+    background-color: var(--color2);
+}
+footer {
+    text-align: center;
+    background-color: var(--color1);
+    padding: 10px;
 }
 

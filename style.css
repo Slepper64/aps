@@ -1,5 +1,22 @@
+:root {
+    --color1: #6F9ABF;
+    --color2: #BBBF45;
+    --color3: #BCBF60;
+    --color4: #F2C49B;
+    --color5: #733924;
+}
 * { 
 margin: 0;
 padding: 0;
-font-size: 16px;
+box-sizing: border-box;
 }
+body {
+    background-color: var(--color5);
+    max-height: 100vh;
+}
+main, article {
+    background-color: #fff;
+    margin: auto;
+    max-width: 1200px;
+}
+

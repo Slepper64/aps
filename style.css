@@ -280,6 +280,14 @@ main, article {
     background-color: #bcbf607e
 }
 
+.underline-risk {
+    text-decoration: underline;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
 footer {
     text-align: center;
     background-color: var(--color1);

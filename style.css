@@ -39,7 +39,7 @@ body {
 }
 
 .about-body {
-    background-image: url(../aps/imagens/sobre-html.jpg);
+    background-image: url(../aps/imagens/wallpaper\ do\ pai.webp)
 }
 
 .curiosidades-body {
@@ -243,7 +243,8 @@ main, article {
 }
 
 .h2-curiosidades-um, .h2-curiosidades-dois, .h2-curiosidades-tres, .h2-curiosidades-quatro {
-    padding: 10px 0;
+    padding: 10px;
+    margin-left: 10px;
     margin: 25px 0;
     max-width: 1000px;
 }
@@ -292,6 +293,43 @@ footer {
     text-align: center;
     background-color: var(--color1);
     padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .ul-principal, .ul-p {
+        display: flex;
+        flex-direction: column;
+    }
+    .ul-principal > a {
+        margin: 5px 0;
+    }
+    .ul-p > a {
+        margin: 5px 0;
+    }
+    .container-box {
+        display: block;
+    }
+    .content-box {
+        margin-top: 5rem;
+    }
+    .atari-box img {
+        display: none;
+    }
+    .h2-conteudo {
+        margin-bottom: 3rem;
+    }
+    .child-atari, .child-atari-3 {
+        display: none;
+    }
+    .child-atari-2 {
+        margin-bottom: 1em;
+    }
+    .parent-pc {
+        display: block;
+    }
+    .child-pc img {
+        display: none;
+    }
 }
 
 

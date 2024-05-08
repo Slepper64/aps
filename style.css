@@ -306,6 +306,9 @@ footer {
     .ul-p > a {
         margin: 5px 0;
     }
+    .parent-wall-e {
+        display: block;
+    }
     .container-box {
         display: block;
     }

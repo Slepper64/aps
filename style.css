@@ -15,6 +15,9 @@
     --font1: 'Exo 2', sans-serif;
     --font2: 'Josefin sans', sans-serif;
 }
+
+/*Nosso CSS, assim como nosso HTML se dispuseram de estruturas básicas - mas utilizadas de maneira eficaz; garantindo a entrega de um site que, embora simples, seja responsivo e funcional. O site, em seu todo, foi feito em flexbox. Utilizamos "margin", "padding" e seus respectivos shorthands - buscando deixar o CSS o mais curto possível. E, para a gênese do site, fizemos uso do root (para inserirmos as cores e fontes) - as quais foram tiradas do Adobe Color e do Google Fonts. Já para o formato do site, de maneira geral, fizemos uso do "box-sizing: border-box" cuja utilização é majoritária, principalmente em sites informativos. */
+
 * { 
 margin: 0;
 padding: 0;
@@ -236,6 +239,10 @@ main, article {
     max-width: 1200px;
 }
 
+.article-contato {
+    height: 90vh;
+}
+
 .curiosidades-primeiro-topico, .curiosidades-segundo-topico, .curiosidades-terceiro-topico, .curiosidades-quarto-topico {
     margin: auto;
     max-width: 1000px;
@@ -314,6 +321,34 @@ td {
     padding: 8px;
     border: 1px solid black;
     vertical-align: middle;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 20px;
+}
+
+form [type='text'], [type='email'] {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+form [type='submit']:hover {
+    cursor: pointer;
+    background-color: #dbdada;
+    transition: 0.6s;
+}
+
+section {
+    margin: 10px 0;
+}
+
+input {
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
 }
 
 footer {
